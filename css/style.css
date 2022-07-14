@@ -1,0 +1,12 @@
+/* Criado por Vitor Schapieski :D */
+
+html{
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    background-image: url(/images/9E4l.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
