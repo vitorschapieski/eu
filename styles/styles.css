@@ -42,6 +42,12 @@ main{
     width: 100px;
     height: 100px;
     border-radius: 3px;
+    cursor: pointer;
+    transition: .6s all ease-out;
+}
+.photo:hover{
+    width: 400px;
+    height: 400px;
 }
 .redes{
     margin-top: 25px;
@@ -71,10 +77,24 @@ main{
 .postsCard p{
     text-indent: 32px;
     max-width: 800px;
-    min-width: 600px;
 }
 ::-webkit-scrollbar{
     background-color: transparent;
+}
+.modal{
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    height: 0%;
+    top: 5%;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 2%;
+    transition: all .4 ease-out;
+}
+.modal.ativar{
+    display: block;
+    height: 80%;
 }
 
 @media (max-width: 1000px){
@@ -93,3 +113,4 @@ main{
         border-top: 1px solid rgba(255, 255, 255, 0.664);
     }
 }
+
