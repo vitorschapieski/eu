@@ -46,8 +46,8 @@ main{
     transition: .6s all ease-out;
 }
 .photo:hover{
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
 }
 .redes{
     margin-top: 25px;
@@ -111,6 +111,10 @@ main{
         border-radius: 0px;
         border-left: none;
         border-top: 1px solid rgba(255, 255, 255, 0.664);
+    }
+    .photo:hover{
+        height: 400px;
+        width: 400px;
     }
 }
 
