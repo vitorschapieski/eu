@@ -13,6 +13,7 @@ body{
     align-items: center;
     padding: 28px;
     border-right: 1px solid rgba(255, 255, 255, 0.664);
+    transition: .6s all ease-out;
 }
 
 main{
@@ -20,6 +21,10 @@ main{
     padding: 25px;
     background-color: #010211;
     overflow-y: auto;
+    transition: .6s all ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .right{
     grid-column: 3;
@@ -31,6 +36,7 @@ main{
     padding-top: 22px;
     background-color: rgba(128, 128, 128, 0.068);
     border-left: 1px solid rgba(255, 255, 255, 0.664);
+    transition: .6s all ease-out;
 }
 .photo{
     width: 100px;
@@ -64,6 +70,8 @@ main{
 }
 .postsCard p{
     text-indent: 32px;
+    max-width: 800px;
+    min-width: 600px;
 }
 ::-webkit-scrollbar{
     background-color: transparent;
@@ -74,5 +82,14 @@ main{
         display: flex;
         flex-direction: column;
 
+    }
+    .left{
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    }
+    .right{
+        border-radius: 0px;
+        border-left: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.664);
     }
 }
