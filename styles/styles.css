@@ -96,12 +96,14 @@ main{
 }
 .miniPhotos{
     height: 100px;
+    width: 35%;
     border-radius: 25px;
     transition: all .4 ease-out;
     margin: o auto;
 }
 .miniPhotos:hover{
     height: 150px;
+    width: 55%;
     transition: all .4 ease-out;
 }
 
@@ -160,6 +162,7 @@ main{
 .modalPage img{
     margin: 0 auto;
     height: 50%;
+    width: 25%;
     border-radius: 15px;
 }
 ::-webkit-scrollbar{
