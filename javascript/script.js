@@ -1,8 +1,10 @@
-let photo = document.querySelector('.photo');
+let fechar = document.querySelector('.fechar')
+let photos = document.querySelector('.photos')
+let modal = document.querySelector('.modal')
 
-function abrirModal(){
-    let modal = document.querySelector('.modal');
+function toggle(){
     modal.classList.toggle('ativar');
-};
+}
 
-photo.addEventListener('click', abrirModal)
+fechar.addEventListener('click', toggle);
+photos.addEventListener('click', toggle);
