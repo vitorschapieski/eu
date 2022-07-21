@@ -120,8 +120,12 @@ main{
 .skills:hover{
     animation: none;
 }
+.skill{
+    display: none;
+}
 .skill.ativar{
     background-color: #010211;
+    display: block;
 }
 .Posts.ativar{
     display: none;
