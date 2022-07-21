@@ -114,7 +114,7 @@ main{
 }
 .skills{
     cursor: pointer;
-    animation: animacao 1s infinite ;
+    animation: animacao 3s infinite ;
     
 }
 .skills:hover{
@@ -140,7 +140,7 @@ main{
         opacity: .7;
     }
     100%{
-        opacity: 0;
+        opacity: 1;
     }
 }
 
